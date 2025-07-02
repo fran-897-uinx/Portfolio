@@ -1,0 +1,34 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.footer {
+  background: #0d0d0f;
+  padding: 20px;
+  font-family: cursive;
+}
+
+#more {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.footer hr {
+  width: 100%;
+  margin: 1rem;
+}
+
+.foot-name p {
+  font-size: 11px;
+  padding-bottom: 0%;
+}
+
+.foot {
+  color: blue;
+  font-size: 9px;
+  text-align: center;
+}

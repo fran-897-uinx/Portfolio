@@ -1,0 +1,179 @@
+.about {
+  padding: 3rem;
+  background: #aaa;
+  padding-left: 5rem;
+  margin: 0%;
+}
+
+.About-name {
+  align-items: center;
+  text-align: center;
+}
+.About-name h1 {
+  font-size: 20px;
+  font-family: cursive;
+  margin: 1rem;
+  margin-bottom: 0.3rem;
+}
+hr {
+  width: 30px;
+  align-self: center;
+  place-self: center;
+  height: 2px;
+  border: 1.1px solid;
+}
+.About-name p {
+  font-size: 18px;
+  font: message-box;
+  font-family: cursive;
+  font-weight: 400;
+}
+
+.about-section {
+  display: flex;
+  padding: 50px;
+}
+.about-get {
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 400;
+  align-content: center;
+  text-align: start;
+  font-size: 15px;
+}
+.about-get h3 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.about-get span {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.about-get a {
+  text-decoration: underline;
+  color: blue;
+}
+.about-get button {
+  padding: 9px;
+  margin: 4%;
+  border: none;
+  color: #fff;
+  background: #313131;
+  font-family: cursive;
+  text-transform: uppercase;
+  border-radius: 12px;
+  margin-left: 1rem;
+}
+
+.about-get button a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+}
+
+.Skills {
+  display: flex;
+  font-family: cursive;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.my-skills {
+  margin-left: 1rem;
+  font-family: cursive;
+}
+.my-skills h3 {
+  margin-bottom: 0.8rem;
+}
+.Skills .box {
+  background: #aaa;
+  padding: 6px;
+  padding-inline: 4px;
+  box-shadow: #2b2b28 2px 1px 2px 1px;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 360px) {
+  .about {
+    padding: 0.5rem;
+  }
+  .about-section {
+    display: grid;
+    padding: 12px;
+  }
+
+  .about-get {
+    font-size: 12px;
+    padding: 1px;
+    align-content: start;
+  }
+  .my-skills {
+    margin-left: 0rem;
+    font-family: cursive;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 0.5rem;
+  }
+  .about-section {
+    display: grid;
+    padding: 12px;
+  }
+
+  .about-get {
+    font-size: 12px;
+    padding: 1px;
+    align-content: start;
+  }
+  .my-skills {
+    margin-left: 0rem;
+    text-justify: distribute-all-lines;
+    font-family: cursive;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .about {
+    padding: 0.5rem;
+  }
+  .about-section {
+    display: grid;
+    padding: 12px;
+  }
+
+  .about-get {
+    font-size: 12px;
+    padding: 1px;
+    align-content: start;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .about {
+    padding: 0.5rem;
+  }
+  .about-section {
+    padding: 12px;
+    display: grid;
+  }
+
+  .about-get {
+    font-size: 12px;
+    padding: 1px;
+    text-align: center;
+  }
+  .my-skills {
+    margin-left: 2rem;
+    font-family: cursive;
+  }
+  .about-get button {
+    margin: 2%;
+  }
+  .my-skills h3 {
+    text-align: center;
+  }
+}
