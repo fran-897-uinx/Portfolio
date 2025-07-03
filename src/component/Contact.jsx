@@ -1,5 +1,5 @@
 import React from "react";
-import "./component2/Contact.css";
+import "./Contact.css";
 
 const Contact = () => {
   class Form extends React.Component {
