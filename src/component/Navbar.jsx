@@ -1,4 +1,4 @@
-import "./component2/Navbar.css";
+
 
 const Navbar = () => {
   const menubar = () => {
